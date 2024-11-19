@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                touch /tmp/abc.txt
-test.sh
+               sh 'touch /tmp/abc.txt'
+
             }
         }
     }
