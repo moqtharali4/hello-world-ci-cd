@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                mkdir /tmp/abc.txt
+                touch /tmp/abc.txt
             }
         }
     }
